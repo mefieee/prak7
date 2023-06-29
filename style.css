@@ -1,0 +1,57 @@
+.cat {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+
+.text{
+    font-size: 14pt;
+
+}
+.photos_section{
+    margin-bottom: 20px;
+}
+#carouselExampleIndicators {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .carousel-inner {
+    border-radius: 10px;
+  }
+  
+  .carousel-item img {
+    border-radius: 10px;
+    width: 1024px; /* Фіксована ширина фото */
+    height: 768px; /* Фіксована висота фото */
+    object-fit: cover; /* Заповнення області зображення */
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    /* Стилі для кнопок попереднього та наступного слайду */
+    background-color: #000; /* Колір фону іконки */
+    width: 20px; /* Ширина іконки */
+    height: 20px; /* Висота іконки */
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    /* Стилі для стрілок попереднього та наступного слайду */
+    width: 5%; /* Ширина області стрілки */
+  }
+  
+  .carousel-indicators li {
+    /* Стилі для індикаторів слайдів */
+    background-color: #000; /* Колір активного індикатора */
+    border-color: #000; /* Колір рамки індикатора */
+  }
+  
+  .carousel-indicators .active {
+    /* Стилі для активного індикатора */
+    background-color: #fff; /* Колір фону активного індикатора */
+    border-color: #000; /* Колір рамки активного індикатора */
+  }
